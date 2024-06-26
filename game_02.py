@@ -33,6 +33,9 @@ while class_chosen == False:
         player['max_health'] += 50
         player['armour'] += 4
         class_chosen = True
+    else:
+                    print('Oops. Try again! Type the class')
+
 print(f"You've entered dark temple of the Old One, oh brave {class_player} {user_name}.")
 print('The temple floor is covered with blood and bones of the others who came here before you.')
 print('The Old One is a terror torturing you lands. And you are the one to save them or at least die trying.')
